@@ -9,7 +9,7 @@ export const primaryRoute = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <h1>Home</h1>
+        element: <PokePage />
       },
       {
         path: 'productos',
@@ -25,7 +25,7 @@ export const primaryRoute = createBrowserRouter([
       },
       {
         path: 'contacto',
-        element: <PokePage/>
+        element: <h1>Contacto</h1>
       }
     ]
   }
