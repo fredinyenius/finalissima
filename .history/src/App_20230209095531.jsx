@@ -5,7 +5,7 @@ import { store } from './redux/store';
 import { primaryRoute } from './routes/primaryRoute';
 
 function App() {
-  console.log(import.meta.env.VITE_CMS_API_URL)
+  
   return (
     <Provider store={store}>
       <RouterProvider router={primaryRoute} />
